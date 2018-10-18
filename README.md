@@ -1,11 +1,7 @@
 # Dog-Breed-Classifier
 Deep learning algorithm which classifies pictures into different dog breeds
 
-In this project, I build a convolutional neural network (CNN) that can classify the breed of dog from any user-supplied image. If the image is of a human and not a dog, the algorithm will provide an estimate of the dog breed that is most resembling.
-
-The code is written in Python 3 and Keras with Tensorflow backend all presented in Jupyter Notebook. I used AWS EC2 gpu instance for training the model.
-
-If you'd like to use this notebook to do any re-training on the dataset you can grab it at the links below. 
+Trains a convolutional neural network on images of dogs which can be downloaded at the links below. The network takes a user-supplied image as input and outputs the dog breed that the picture most resembels.
 
 ## Dog Images
 wget https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip; unzip dogImages.zip; rm dogImages.zip
